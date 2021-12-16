@@ -1,4 +1,4 @@
-/* 简单工厂模式
+package online.flyingfish.pattern.FactoryMethod;/* 简单工厂模式
 
 水果工厂
 

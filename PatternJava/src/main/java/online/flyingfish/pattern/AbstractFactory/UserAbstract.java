@@ -1,3 +1,5 @@
+package online.flyingfish.pattern.AbstractFactory;
+
 // 将 AppleFactory 和 PearFactory 统一作为 IFactory 对象使用
 public class User {
     private void eat(){

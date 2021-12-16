@@ -1,3 +1,5 @@
+package online.flyingfish.pattern.FactoryMethod;
+
 /* 工厂方法模式
 
 调用者
