@@ -1,18 +1,21 @@
 package online.flyingfish.pattern.FactoryMethod;
 
+import org.junit.Test;
+
 /* 工厂方法模式
 
 调用者
 
 */ 
 public class UserMethod {
-    private void eat(){
+    @Test
+    public void eat(){
         AppleFactory appleFactory = new AppleFactory();
         Fruit apple = appleFactory.create();
         PearFactory pearFactory = new PearFactory();
         Fruit pear = pearFactory.create();
-        apple.eat();
-        pear.eat();
+        System.out.println(apple.eat());
+        System.out.println(pear.eat());
     }
 }
 
