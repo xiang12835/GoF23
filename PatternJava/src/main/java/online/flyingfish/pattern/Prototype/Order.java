@@ -11,6 +11,6 @@ public class Order {
         milkTeaOfJay.ice = false;
 
         MilkTea yourMilkTea = milkTeaOfJay.clone();
-        System.out.println(yourMilkTea.type + yourMilkTea.ice);
+        System.out.println(yourMilkTea.type + "奶茶");
     }
 }
