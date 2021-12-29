@@ -1,5 +1,7 @@
 package online.flyingfish.pattern.Builder;
 
+import org.junit.Test;
+
 /*
 可以看到，我们将 MilkTea 的构造方法设置为私有的，所以外部不能通过 new 构建出 MilkTea 实例，只能通过 Builder 构建。对于必须配置的属性，通过 Builder 的构造方法传入，可选的属性通过 Builder 的链式调用方法传入，如果不配置，将使用默认配置，也就是中杯、加珍珠、不加冰。根据不同的配置可以制作出不同的奶茶：
 
@@ -9,7 +11,8 @@ package online.flyingfish.pattern.Builder;
 
 * */
 public class User {
-    private void buyMilkTea() {
+    @Test
+    public void buyMilkTea() {
         MilkTea milkTea = new MilkTea.Builder("原味").build();
         show(milkTea);
 
