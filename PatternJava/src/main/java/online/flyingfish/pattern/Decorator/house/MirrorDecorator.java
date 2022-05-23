@@ -1,6 +1,9 @@
-package online.flyingfish.pattern.Decorator;
+package online.flyingfish.pattern.Decorator.house;
 
-public class MirrorDecorator implements IMirrorHouse{
+import online.flyingfish.pattern.Decorator.house.IHouse;
+import online.flyingfish.pattern.Decorator.house.IMirrorHouse;
+
+public class MirrorDecorator implements IMirrorHouse {
     private final IHouse house;
 
     public MirrorDecorator(IHouse house) {
